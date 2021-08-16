@@ -58,5 +58,13 @@ rm [filename]
 切换：git checkout hot_fix
 合并：git merge hot_fix
 解决冲突：git add [filename]
+
+远程：git remote -v
+git remote add origin 地址
+推送：git push workspace master
+本地新建目录在该目录中克隆远程文件
+git clone [远程地址]
+
+
  
 
