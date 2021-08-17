@@ -96,6 +96,27 @@ add之后可以用
 $ ssh git@github.com
 验证是不是添加成功。
 
+git fetch work master
+git checkout origin/master
+git merge origin/master
+
+团队冲突：
+git push work master
+git add [filename]
+git commit -m ""
+
+跨团队合作
+Fork下来到自己GitHub
+从自己的远端clone下来到本地
+修改到远端
+pull request->new pull request->create pull requests 
+团队可以 merge pull request
+将远程库修改拉取到本地
+
+ssh登录
+
+
+
 
 
  
