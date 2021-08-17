@@ -114,6 +114,13 @@ pull request->new pull request->create pull requests
 将远程库修改拉取到本地
 
 ssh登录
+cd ～
+rm -rvf .ssh
+Ssh-keygen -t rsa -C tfdmhello@163.com
+cd .ssh
+ls -IF
+
+
 
 
 
